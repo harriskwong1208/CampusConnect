@@ -1,6 +1,12 @@
-﻿namespace MVCApi.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace MVCApi.Controllers
 {
-    public interface CategoryController
+    public class CategoryController : Controller
     {
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }
