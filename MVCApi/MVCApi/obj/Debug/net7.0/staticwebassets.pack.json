@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MVCApi.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\harri\\Desktop\\MVC\\MVCApi\\MVCApi\\wwwroot\\css\\bootswatchTheme.css",
+      "PackagePath": "staticwebassets\\css\\bootswatchTheme.css"
+    },
+    {
       "Id": "C:\\Users\\harri\\Desktop\\MVC\\MVCApi\\MVCApi\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

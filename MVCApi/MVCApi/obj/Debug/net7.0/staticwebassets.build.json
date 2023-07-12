@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3E3v6F9jN9sjwJ86p9Pd7nw9LilgH4Ykdb3QzZuDTu8=",
+  "Hash": "2NzQ7PUkIBU/un29dAvrSdjEI5qrs2kKEl+oCaI/vuc=",
   "Source": "MVCApi",
   "BasePath": "_content/MVCApi",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\harri\\Desktop\\MVC\\MVCApi\\MVCApi\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MVCApi.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\harri\\Desktop\\MVC\\MVCApi\\MVCApi\\wwwroot\\css\\bootswatchTheme.css",
+      "SourceId": "MVCApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\harri\\Desktop\\MVC\\MVCApi\\MVCApi\\wwwroot\\",
+      "BasePath": "_content/MVCApi",
+      "RelativePath": "css/bootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\harri\\Desktop\\MVC\\MVCApi\\MVCApi\\wwwroot\\css\\site.css",
