@@ -36,6 +36,7 @@ namespace MVCApi.Controllers
             {
                 _db.categories.Add(obj);
                 _db.SaveChanges();
+				TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
             return View(obj);  
@@ -68,6 +69,8 @@ namespace MVCApi.Controllers
 			{
 				_db.categories.Update(obj);
 				_db.SaveChanges();
+				TempData["success"] = "Category updated successfully";
+
 				return RedirectToAction("Index");
 			}
 			return View(obj);
@@ -99,7 +102,9 @@ namespace MVCApi.Controllers
 			
 				_db.categories.Remove(obj);
 				_db.SaveChanges();
-				return RedirectToAction("Index");
+				TempData["success"] = "Category deleted successfully";
+
+			return RedirectToAction("Index");
 			
 			return View(obj);
 		}
