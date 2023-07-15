@@ -1,1 +1,1 @@
-# MVC
+# CampusConnect
