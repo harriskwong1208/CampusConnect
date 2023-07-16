@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿/*
+ using Microsoft.AspNetCore.Mvc;
 using MVCApi.Data;
 using MVCApi.Models;
 
@@ -110,3 +111,4 @@ namespace MVCApi.Controllers
 		}
 	}
 }
+*/

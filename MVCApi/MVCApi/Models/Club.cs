@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MVCApi.Models
 {
-    public class Campus
+    public class Club
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
-        public string Country { get; set; }
-        public string City { get; set; }
+        public int Size { get; set; }
     }
 }
